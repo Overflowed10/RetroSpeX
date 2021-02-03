@@ -1,0 +1,374 @@
+/* General Settings (class for body) */
+.custom-page {
+    background-color: #303030;
+    color: lightgrey;
+}
+
+a, a:hover {
+    color: lightgrey;
+}
+
+h3, h4, h5 {
+    color: #8dc63f;
+}
+
+/* Main Sidebar (sb) */
+#sb-main ul li a, #sb-main ul li a:hover, #sb-main ul li h6{
+    color: lightgrey;
+}
+
+@media (min-width: 576px) {
+    .borderright-customgreen {
+        border-right:3px solid #8dc63f;
+    } 
+    
+}
+@media only screen and (max-width: 650px) {
+    #myCarousel {
+        margin-top: 0%;
+        margin-bottom: 0%;
+    }
+    .carousel-item {
+        width:80%;
+        margin:10%;
+        margin-top: 0%;
+    }
+
+
+}
+
+.active-custom {
+    background-color: #8dc63f;
+}
+
+/* Card-columns (~sb_uebersicht) */
+.card-columns {
+    color: #000000;
+}
+
+.card-columns span {
+    vertical-align: top;
+}
+
+/* Card (~sb_teams) */
+.card {
+    color: #000000;
+}
+
+/* collapsible Meeting-box (für meeting_uebersicht) */
+.meeting-box {
+    color: #000000;
+    background-color: #8dc63f;
+    border: 2px solid #FFFFFF;
+    border-radius: 25px;
+}
+
+.collapsible-meeting { 
+    background-color: transparent; 
+    border: none; 
+    outline: none; 
+    border-radius: 25px;
+    cursor:pointer;
+} 
+
+#meta-frage, #meta-frage label {
+    color: #8dc63f;
+    cursor:pointer;
+}
+
+.hidden-content { 
+    background-color: transparent; 
+    display: none; 
+} 
+
+.hidden-content hr {
+    border: none;
+    height: 1px;
+    /* Set the hr color */
+    background-color: #303030; /* Modern Browsers */
+}
+
+.hidden-content div label {
+    color: lightgrey;
+}
+
+/* Meeting.summary */
+.summary-box {
+    border: 2px solid #FFFFFF;
+    border-radius: 25px;
+}
+
+.summary-box label {
+    font-size: 25;
+    color: white;
+}
+
+.hidden-summary {
+    background-color: transparent;
+    display: none;
+}
+
+
+/* Meeting.create_metaquestion */
+.metaquestion-box {
+    border: 2px solid #FFFFFF;
+    border-radius: 25px;
+}
+
+.metaquestion-box label {
+    font-size: 25;
+    color: white;
+}
+
+.hidden-metaquestion {
+    background-color: transparent;
+    display: none;
+}
+
+/* Hilfe */
+
+.help-searchbar{
+    margin-left: 40%;
+    width: 20%;
+    margin-right: 40%;
+
+}
+
+.help-styling-pretext{
+    color: white;
+    margin-left: 1rem;
+}
+
+.help-styling{
+    background-color: white;
+    border: 2px solid #303030;
+    border-radius: 15px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.help-styling .panel-title{
+    font-weight: bold;
+    font-style: italic;
+}
+.help-styling .panel-group{
+    color: #6c6d71;
+    margin-top: 20px;
+}
+.help-styling .panel-body{
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.panel-title-color {
+    color: #6c6d71;
+}
+
+
+/* Buttons */
+.btn-red {
+    background-color: #da4f45;
+    color: #414144;
+    border-radius: 12px;
+    border-width: 1px;
+    border-color: white;
+    padding: 6px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    outline: none;
+}
+
+.btn-red:hover {
+    background-color: #f3554a;
+    color: #414144;
+    outline: none !important;
+    box-shadow: none;
+}
+
+.btn-green {
+    background-color: #8dc63f;
+    color: #6c6d71;
+    border-radius: 12px;
+    border-width: 1px;
+    border-color: white;
+    padding: 6px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    outline: none;
+}
+
+.btn-green:hover {
+    background-color: #9ad14d;
+    color: #56585c;
+    outline: none !important;
+    box-shadow: none;
+}
+
+/* widths */
+.w-450 {
+    width: 450;
+}
+
+.mw-400 {
+    max-width: 400;
+}
+
+.w-400 {
+    width: 400;
+}
+
+/* Sonstiges */
+.round-border {
+    border: 2px solid #6c6d71;
+    border-radius: 25px;
+}
+
+/* Colors */
+.bg-customgreen {
+    background-color: #8dc63f;
+}
+
+.text-customgray {
+     color: lightgrey;
+}
+
+.text-customgreen {
+    color: #8dc63f;
+}
+
+.container-fluid-custom {
+    border-radius: 25px;
+    min-height: 500;
+    max-width: 1250;
+}
+
+h1 {
+    color: white;
+}
+
+.card-header h1{
+    color: black;
+}
+
+.navBar {
+    background-color : #8dc63f;
+    color:  #303030;
+    border-radius: 0px;
+    font-size: 15px;
+}
+
+.navbar-height {
+    height: 100vh;
+}
+
+#buttonOnBottomRight {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+  }
+
+#buttonOnBottomLeft {
+    position: fixed;
+    bottom: 30px;
+    left: 30px;
+  }
+
+#buttonOnTopRight {
+    margin-top: 115px;
+}
+ 
+
+  
+/* Carousel basierend auf: https://www.w3schools.com/bootstrap4/bootstrap_carousel.asp -*/
+
+
+
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+  }
+
+.carousel-item .card {
+    margin: 100 auto;
+    background-color:#F1F9BE ; 
+    max-width: 25rem;    
+}
+
+                       
+#reminder{
+
+    background-color: white;
+    color: black;
+    border-color: #8dc63f;
+    border-width: 3px;
+    max-width: 20rem;
+}
+    
+.summary_title {
+    color: white;
+    font-size: large;
+    font-weight: bold;
+}
+
+.metaquestion-title {
+    color: white;
+    font-size: large;
+    font-weight: bold;
+}
+
+.btn-blue {
+    background-color: #3f85c6;
+    color: #ffffff;
+    border-radius: 40px;
+    border-width: 3px;
+    border-color: white;
+    padding: 6px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    outline: none;   
+}
+ 
+.btn-darkgreen {
+    background-color: #6EF4A4;
+    color: #303030;
+    border-radius: 13px;
+    border-width: 1px;
+    border-color: white;
+    padding: 1px 11px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    outline: none; 
+}
+
+#settings-fixedbottom, #users-fixedbottom {
+    display:none;
+}
+
+.placeholder {
+    content: " ";
+    display: block;
+    visibility: hidden;
+    margin-top: -6em;
+    height: 6em;
+}
+
+.slidedown {
+    padding-top: 30px; 
+    margin-top: -20px;
+}
+
+#noOfQuestion {
+    color: white;
+    position: fixed;
+    bottom: 20px;
+    right: 240px;
+}
