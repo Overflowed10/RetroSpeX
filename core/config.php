@@ -1,21 +1,13 @@
 <?php
 $db_config = [
     //current development environment
-	"env" => "development",
+	"env" => "production",
 	//Localhost
-	"development" => [
+	"production" => [
 						"host" => "localhost",
 						"port" => "",
-						"database" => "test",
+						"database" => "retrospex",
 						"username" => "root",
 						"password" => ""
-					 ],
-	//Server
-	"production"  => [
-						"host" => "141.13.8.16",
-						"port" => "3307",
-						"database" => "wip2021_g2",
-						"username" => "wip2021_g2",
-						"password" => "HNEYmSG62"
 					 ]
 ];
