@@ -1,6 +1,8 @@
 # RetroSpeX
 
-Eine Web-Applikation um Ihre Retrospektiven zu verwalten.
+Gruppenarbeit für das Projekt "Systementwicklung".
+
+Eine Web-Applikation um Ihre Retrospektiven durchzuführen und zu verwalten. 
 
 Nutzung der Website über Xampp:
 
