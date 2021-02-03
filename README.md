@@ -1,7 +1,20 @@
 # RetroSpeX
 
-Eine Web-Applikation um Ihre Retrospektiven zu verwalten. Lesen Sie mehr hierzu im Nutzerhandbuch, das Ihnen überreicht worden ist.  
+Gruppenarbeit für das Projekt "Systementwicklung".
 
-Vielen Dank,  
+Eine Web-Applikation um Ihre Retrospektiven durchzuführen und zu verwalten. 
 
-Ihr RetroSpeX-Team.  
+Nutzung der Website über Xampp:
+
+<ol>
+  <li> Projekt in Xampp im Ordner htdocs abspeichern </li>
+  <li> MySQL-Datenbank in Xampp einbinden (retrospex.sql) </li>
+  <li> Im Browser http://localhost/retrospex/ eingeben </li> 
+  <li> Loin: </li>
+  <ul> 
+    <li>Email: sysadmin@retrospex.com</li>
+    <li>PW: operator</li>
+  </ul>
+</ol>
+
+
